@@ -1,8 +1,12 @@
-# Grunt SF Jedi
-A grunt wrapper around a soon to be existing Force.com tool to push and pull
-changes. More to come...
+# SF Jedi
+Another tool to abstract the Force.com metadata API using JSforce. Ideally this
+shall provide an ultra-simple cli and allow for abstraction via grunt tasks to
+perform some useful functionality such as:
+- Allowing one project folder for all the meta data to sync up with git
+- Init, Push, Pull and Watch functions.
+- Change tracking to allow push of only changed objects
+- Pull of current state from org, excluding locally changed
+- Watch files, to auto push changes as they occur up to some org
 
 ## Acknowledgements
-The inspiration for this was the work done by James Kent on his
-grunt-force-developer plugins. I wanted to go further with that but decided to
-rebuild the project
+Will add this section to acknowledge all projects used for inspiration
