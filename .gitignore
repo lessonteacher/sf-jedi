@@ -36,3 +36,5 @@ jspm_packages
 # Project specific
 .ternproject
 .force
+.env
+.research

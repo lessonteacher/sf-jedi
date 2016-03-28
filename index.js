@@ -1,8 +1,10 @@
 'use strict'
 
+require('dotenv').config();
+
 var Force = require('./lib/force');
 
 let force = new Force();
 
-// Init force
-force.init();
+// force.init();
+// force.push();
