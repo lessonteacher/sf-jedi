@@ -1,10 +1,2 @@
-'use strict'
-
-require('dotenv').config();
-
-var Force = require('./lib/force');
-
-let force = new Force();
-
-// force.init();
-// force.push();
+// Export just the force lib for now
+module.exports = require('./lib/force');
