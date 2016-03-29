@@ -24,10 +24,10 @@ let options = {
 // Create the force object with the options
 let force = new Force(options);
 
-// Initialises a .force project folder, and pulls from above org detail
+// Initialises a .force project folder
 force.init();
 
-// Pulls from from the org using some previoously initialised setting
+// Pulls from from the org using some previously initialised setting
 force.pull();
 
 // Pushes the current src folder (or whatever you set it to) to the org
