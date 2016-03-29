@@ -39,6 +39,8 @@
     "salesforce",
     "force.com",
     "jsforce",
-    "developer tool"
+    "developer tool",
+    "sf-jedi",
+    "grunt-sf-jedi"
   ]
 }
