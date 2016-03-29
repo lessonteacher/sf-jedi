@@ -51,9 +51,22 @@ features are the following (in probable order):
 - Destructive push / single truth source
 - Command line interface
 
+### What Token?
+
+Just a free tip here, the salesforce 'token' trolled me a bit since it wasn't sent in any email automatically.
+So, if you cant find the 'Reset My Security Token' option anywhere in 'Setup' try the following url.
+Of course you will need to change to your domain for the url
+
+```sh
+https://<SalesforceDomainHere>/_ui/system/security/ResetApiTokenEdit?retURL=%2Fui%2Fsetup%2FSetup%3Fsetupid%3DPersonalInfo&setupid=ResetApiToken
+```
+
+Full credit to the guy in [this stackoverflow][stack] question.
+
 ## Acknowledgements
 
 - [JSForce][jsforce] - I am using this to retrieve Salesforce data
 
 [jsforce]:https://jsforce.github.io/
 [grunt-sf-jedi]:https://github.com/lessonteacher/grunt-sf-jedi
+[stack]:https://salesforce.stackexchange.com/questions/44483/salesforce-sandbox-security-token/74050#74050?newreg=d514d90eb89c4ca2b32da80fbfc86c77
