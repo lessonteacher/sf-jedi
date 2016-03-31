@@ -1,7 +1,7 @@
 {
   "name": "sf-jedi",
   "description": "Another Salesforce developer tool",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/lessonteacher/sf-jedi",
   "author": {
     "name": "lessonteacher"
