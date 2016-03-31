@@ -5,8 +5,10 @@ var Force = require('../index.js');
 
 // Set options
 let options = {
-  autoPull: true,
-  logLevel: 'debug'
+  // autoPull: true,
+  logging: {
+    level: 'debug'
+  }
 }
 
 // Create object

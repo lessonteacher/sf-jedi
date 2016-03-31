@@ -66,7 +66,11 @@ Full credit to the guy in [this stackoverflow][stack] question.
 ## Acknowledgements
 
 - [JSForce][jsforce] - I am using this to retrieve Salesforce data
+- [jsforce-metadata-tools][meta-tools] - I used some of the logic for outputting results
+- [grunt-sf-tooling][sf-tooling] - Never saw this till after i finished the first cut but props there its the same idea
 
 [jsforce]:https://jsforce.github.io/
 [grunt-sf-jedi]:https://github.com/lessonteacher/grunt-sf-jedi
 [stack]:https://salesforce.stackexchange.com/questions/44483/salesforce-sandbox-security-token/74050#74050?newreg=d514d90eb89c4ca2b32da80fbfc86c77
+[meta-tools]:https://github.com/jsforce/jsforce-metadata-tools/blob/master/lib/deploy.js
+[sf-tooling]:https://www.npmjs.com/package/grunt-sf-tooling
