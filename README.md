@@ -1,8 +1,8 @@
 # SF Jedi
 
-This is a framework which abstracts the [JSforce][jsforce] metadata
-`retrieve` and `deploy` functions. Essentially you can run a few commands
-per the below example.
+> A framework to abstract [JSforce][jsforce] `retrieve` and `deploy` to Salesforce. Most useful by using the [Grunt SF Jedi][gsj] package
+
+_The functions provided look like the below examples_
 
 ```javascript
 'use strict'
@@ -82,7 +82,7 @@ let options = {
 ```
 
 Primarily this is used at the moment in conjunction with
-[`grunt-sf-jedi`][grunt-sf-jedi] which exposes these functions
+[`grunt-sf-jedi`][gsj] which exposes these functions
 
 ## Planned Features
 
@@ -114,7 +114,7 @@ Full credit to the guy in [this stackoverflow][stack] question.
 - [grunt-sf-tooling][sf-tooling] - Never saw this till after i finished the first cut but props there its the same idea
 
 [jsforce]:https://jsforce.github.io/
-[grunt-sf-jedi]:https://github.com/lessonteacher/grunt-sf-jedi
+[gsj]:https://github.com/lessonteacher/grunt-sf-jedi
 [stack]:https://salesforce.stackexchange.com/questions/44483/salesforce-sandbox-security-token/74050#74050?newreg=d514d90eb89c4ca2b32da80fbfc86c77
 [meta-tools]:https://github.com/jsforce/jsforce-metadata-tools/blob/master/lib/deploy.js
 [sf-tooling]:https://www.npmjs.com/package/grunt-sf-tooling
