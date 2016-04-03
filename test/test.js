@@ -5,7 +5,12 @@ var Force = require('../index.js');
 
 // Set options
 let options = {
-  // autoPull: true,
+  pullOnInit: true,
+
+  project: {
+    respectLocalChanges: true
+  },
+
   logging: {
     level: 'debug'
   }
@@ -15,6 +20,10 @@ let options = {
 let force = new Force(options);
 
 // force.init();
-// force.pull();
+force.pull();
 // force.push();
 // force.reset();
+//
+// force.reset()
+//   .then(() => force.init())
+//   .then(() => force.pull());
