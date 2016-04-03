@@ -34,7 +34,7 @@ jspm_packages
 .node_repl_history
 
 # Project specific
-.ternproject
+.tern-project
 .force
 .env
 .research
