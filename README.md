@@ -4,6 +4,8 @@ This is a framework which abstracts the [JSforce][jsforce] metadata
 `retrieve` and `deploy` functions. Essentially you can run a few commands
 per the below example.
 
+_**Note:** Currently this is not maintained as I am not working on any Salesforce system. Also there is a really nice project called [dmc][dmc] which I found out about later after implementing this and it is aiming to do a lot of what I wanted so you should check it out_
+
 ```javascript
 'use strict'
 
@@ -118,3 +120,4 @@ Full credit to the guy in [this stackoverflow][stack] question.
 [stack]:https://salesforce.stackexchange.com/questions/44483/salesforce-sandbox-security-token/74050#74050?newreg=d514d90eb89c4ca2b32da80fbfc86c77
 [meta-tools]:https://github.com/jsforce/jsforce-metadata-tools/blob/master/lib/deploy.js
 [sf-tooling]:https://www.npmjs.com/package/grunt-sf-tooling
+[dmc]:https://github.com/kevinohara80/dmc
