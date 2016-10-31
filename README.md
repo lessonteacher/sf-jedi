@@ -37,8 +37,7 @@ force.push();
 force.reset();
 ```
 
-Additionally you can set a number of options, if you take a look
-at the example in the repo, but it looks basically like this.
+Additionally you can set a number of options which look like the following.
 **Note** that most of these are set for you and so are totally optional!
 
 ```javascript
@@ -47,7 +46,7 @@ at the example in the repo, but it looks basically like this.
 let options = {
   username: 'bill@amazingtown.com',
   password: 'somepassword',
-  token: 'DSAddjsaddsadasda',   // Annoying thing that salesforce sends you
+  token: 'DSAddjsaddsadascd',   // Annoying thing that salesforce sends you
   host: 'login.salesforce.com', // Or set some other domain
 
   // apiVersion: '34.0', // Kind of not used but its available
